@@ -1,7 +1,7 @@
 # Confident Metrics
 
 [![Travis build status](https://travis-ci.com/src-d/confident_metrics.svg)](https://travis-ci.com/src-d/confident_metrics)
- [![Code coverage](https://codecov.io/github/src-d/confident_metrics/coverage.svg)](https://codecov.io/github/src-d/confident_metrics)
+[![Code coverage](https://codecov.io/github/src-d/confident_metrics/coverage.svg)](https://codecov.io/github/src-d/confident_metrics)
 [![Read the Docs](https://img.shields.io/readthedocs/confident_metrics.svg)](https://readthedocs.org/projects/confident_metrics/)
 [![PyPi package status](https://img.shields.io/pypi/v/confident_metrics.svg)](https://pypi.python.org/pypi/confident_metrics)
 ![stability: alpha](https://svg-badge.appspot.com/badge/stability/alpha?color=f47142)
