@@ -20,7 +20,7 @@ exclude_packages = (
 setup(
     name="confident-metrics",
     description="Python abstraction for runtime metrics collection built on top of Prometheus."
-                " With confidence intervals! ",
+                " With confidence intervals!",
     long_description=long_description,
     long_description_content_type="text/markdown",
     version=confident_metrics.__version__,
@@ -51,6 +51,7 @@ setup(
         "Programming Language :: Python :: 3.5",
         "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
         "Topic :: Software Development :: Libraries",
     ],
 )

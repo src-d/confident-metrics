@@ -47,6 +47,13 @@ matrix:
       install: *_install
       after_success:
         - codecov
+    - stage: test
+      name: "Test python 3.8"
+      python: 3.8-dev
+      script: *_coverage
+      install: *_install
+      after_success:
+        - codecov
     - stage: deploy
       name: "Upload to pypi"
       python: 3.5
@@ -63,4 +70,5 @@ matrix:
         skip_cleanup: true
         on:
           tags: true
+notifications:
   email: false
